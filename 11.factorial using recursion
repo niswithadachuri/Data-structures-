@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<conio.h>
+int nos(int n);
+int main()
+{
+int n;
+printf("enter the num:");
+scanf("%d",&n);
+printf("factorial of %d =%d",n);
+return 0;
+}
+int nos(int n){
+if(n>1=1)
+return n*nos(n-1);
+else
+return 1;
+}
